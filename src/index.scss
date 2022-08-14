@@ -1,0 +1,186 @@
+@import "../src/sass/variables.scss";
+//@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap');
+
+* { 
+  box-sizing: border-box; 
+}
+body {
+  overflow-x: hidden;
+}
+
+  @font-face {
+    font-family: Manrope-Bold-700;
+    src: url("./font-family/Manrope-Bold.ttf");
+  }
+  @font-face {
+    font-family: Manrope-ExtraBold-800;
+    src: url("./font-family/Manrope-ExtraBold.ttf");
+  }
+  @font-face {
+    font-family: Manrope-ExtraLight-200;
+    src: url("./font-family/Manrope-ExtraLight.ttf");
+  }
+  @font-face {
+    font-family: Manrope-Light-300;
+    src: url("./font-family/Manrope-Light.ttf");
+  }
+  @font-face {
+    font-family: Manrope-Medium-500;
+    src: url("./font-family/Manrope-Medium.ttf");
+  }
+  @font-face {
+    font-family: Manrope-Regular-400;
+    src: url("./font-family/Manrope-Regular.ttf");
+  }
+  @font-face {
+    font-family: Manrope-SemiBold-600;
+    src: url("./font-family/Manrope-SemiBold.ttf");
+  } 
+
+#nav_bg {
+  color: red;
+}
+
+.H-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'Manrope-Bold-700'; 
+  font-size: 64px;
+  color: $clr-2;
+  transform: translate(-80%, -80%);
+}
+
+h1 {
+	font-size: 64px !important;
+}
+
+#image-a {
+  width: 105%;
+  position: relative;
+}
+
+#image-b {
+  position: absolute;
+  top: 0px;
+}
+
+/* ---------------------------- */
+
+.bg-container {
+  background-color: #f5f5f5;
+  height: 350px;
+}
+
+.bg-card {
+  background: $clr-2;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: 205px;
+  width: 1050px;
+  height: 250px;
+}
+.heading {
+  margin-top: 60px;
+  font-size: 50px;
+  font-family: 'Manrope-Bold-700';
+  color: $clr-2;
+  margin-left: 30px;
+  }
+
+.paragraph > p {
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 17px !important;
+  color: $clr-2;
+  }
+
+  .btnStyle{
+    color: $clr-1;
+  }
+  .btnStyle:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+.b-paragraph {
+  font-size: 16px;
+}
+
+.card {
+  block-size: auto;
+	height: 100%;
+  border: 0;
+  display: flex;
+}
+
+.card-title {
+	text-align: left;
+	font-size: 25px;
+}
+
+button {
+	justify-content: center;
+	margin-left: 45%;
+}
+
+i {
+  color: gray;
+}
+
+.Scontainer {
+  margin-left: 15%;
+  margin-right: 50px;
+}
+
+.Scontainer > h3 {
+  margin-top: 10px;
+  font-weight: 'Manrope-Bold-700';
+  font-size: 55px;
+  letter-spacing: -2px;
+}
+
+.Scontainer > p {
+  margin-top: 25px;
+}
+
+.postD {
+  float: left;
+}
+
+span {
+	opacity: 0.4;
+	font-size: 12px;
+	margin-top: 6px;
+}
+
+.txt-read > a:hover {
+  text-decoration: none;
+}
+
+p {
+	text-align: left;
+  font-size: 16px;
+
+}
+
+.img2 {
+  float: left;
+}
+
+.clearfix > a {
+	color: $clr-1;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.line {
+  border-left: 3px solid $clr-1;
+  height: 75px;
+  margin-left: 5px;
+}
+
+blockquote {
+  text-align: left;
+}
