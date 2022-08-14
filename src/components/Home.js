@@ -181,7 +181,7 @@ const Cards = ({src,postedDate,totalView,cardTitle,cardText}) => {
     </section>
 
     <div style={{display:"flex", justifyContent:"center", marginBottom:"20px", marginRight:"30%"}}>
-        <button className="btn bg-dark text-white mt-4">Load More...</button>
+        <button className="btn bg-dark text-white mt-4">Load More</button>
     </div>
 
     </>
